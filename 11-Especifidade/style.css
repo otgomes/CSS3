@@ -1,0 +1,25 @@
+#id_cor {
+    color: aquamarine;
+}
+
+body .h1_color {
+    color: blue;
+}
+
+body > header > h1 {
+    color: green;
+}
+
+body {
+    color: red;
+}
+
+h1 {
+    color: blueviolet !important;
+}
+
+/* Estilo inline style:"" definido diretamente no HTML tem maior prioridade */
+/* Estilo Inline: 1000 pontos */
+/* ID: 100 pontos */
+/* Classes, pseudo-classes e atributos: 10 pontos */
+/* Elementos e pseudo-elementos: 1 ponto */

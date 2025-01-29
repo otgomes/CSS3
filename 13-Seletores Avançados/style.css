@@ -1,0 +1,43 @@
+/* seletor :nth-child() permite que encontre um filho espefífico */
+li:nth-child(2) {
+    color: #f00;
+}
+
+li:nth-child(2n -1) {
+    color: #00f;
+}
+
+/* odd para ímpar e even para par */
+
+/* seletor para demarcar item com o cursor */
+li:hover {
+    background-color: #777;
+    color: antiquewhite;
+}
+
+/* seletor que altera o estado ao selecionar com click */
+input:focus {
+    background-color: #f00;
+}
+
+/* pseudo-elementos ::before e ::after */
+li::before {
+    content: "(antes) ";
+    color: aquamarine;
+}
+
+li::after {
+    content: " (depois)";
+}
+
+li:first-child {
+    color: orange !important;
+}
+
+li:last-child {
+    color: purple !important;
+}
+
+li:not(:first-child) {
+    color: red;
+}
