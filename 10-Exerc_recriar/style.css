@@ -1,0 +1,113 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    text-align: center;
+}
+
+header h1 {
+    font-family: Times;
+    font-weight: 300;
+    font-size: xx-large;
+    margin-top: 1rem;
+}
+
+header p {
+    font-family: 'Cambria';
+    margin-top: 0.5rem;
+    margin-bottom: 1rem;
+    font-size: 70%;
+}
+
+body {
+    text-align: center;
+    background-color: whitesmoke;
+    display: block;
+}
+
+section h2 {
+    font-family: Times;
+    font-weight: 100;
+    font-size: 130%;
+    margin-top: 1rem;
+    margin-bottom: 0.5rem;
+}
+
+section p {
+    font-size: 70%;
+    margin-bottom: 1rem;
+    font-family: 'Cambria';
+}
+
+main {
+    flex: 1;
+}
+
+.inline-block {
+    display: inline-block;
+}
+
+#botao_azul {
+    border-radius: 60px;
+    border: 2px solid #0d90fa;
+    padding: 0.8em;
+    padding-left: 0.7rem;
+    padding-right: 0.7rem;
+    font-size: 50%;
+    font-weight: 700;
+    background-color: #34a1fa;
+    color: whitesmoke;
+    margin-right: 0.5rem;
+}
+
+#subscribe {
+    border-radius: 60px;
+    border: 2px solid black;
+    padding: 0.8em;
+    padding-left: 0.7rem;
+    padding-right: 0.7rem;
+    font-size: 50%;
+    font-weight: 700;
+    background-color: black;
+    color: whitesmoke;
+}
+
+#ver_mais {
+    border-radius: 60px;
+    border: 2px solid black;
+    padding: 0.8em;
+    padding-left: 0.7rem;
+    padding-right: 0.7rem;
+    font-size: 50%;
+    font-weight: 700;
+    background-color: black;
+    color: whitesmoke;
+}
+
+.bookshelf1 {
+    height: 14rem;
+    width: 20rem;
+}
+
+footer p {
+    font-size: 60%;
+    font-family: 'Cambria';
+    text-align: center;
+    margin-bottom: 1rem;
+}
+
+footer {
+    background-color: black;
+    color: whitesmoke;
+    padding-top: 1rem;
+    padding-bottom: 0;
+    bottom: 0;
+    position: fixed;
+    width: 100%;
+}
+
+html {
+    height: 100%;
+}

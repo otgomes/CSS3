@@ -1,0 +1,62 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: black;
+    color: white;
+    padding: 10px;
+}
+
+.box {
+    border: 1px solid #232323;
+    display: inline-block;
+    font-size: 16px;
+    margin-top: 20px;
+    width: 75px;
+}
+
+section {
+    background-color: #b6b4b4;
+    height: 100px;
+}
+
+.px {
+    height: 10px;
+}
+
+/* root element - 16px * v3 = 48px */
+.rem {
+    font-size: 2rem;
+    height: 3rem;
+}
+
+/* tamanho de acordo com a fonte do elemento atual */
+.em {
+    font-size: 2rem;
+    padding: 1em;
+}
+
+/* baseados no tamanho, altura e largura */
+.prcnt-33 {
+    height: 33%;
+}
+
+.prcnt-66 {
+    height: 66%;
+}
+
+.prcnt-100 {
+    height: 100%;
+}
+
+/* viewport height se adapta automaticamente a diferentes tamanhos de telas (dispositivos) */
+.vh {
+    height: 30vh;
+}
+
+/* viewport width se adapta automaticamente a diferentes tamanhos de telas (dispositivos) */
+.vw {
+    width: 50vw;
+}
